@@ -1,0 +1,66 @@
+//
+//  PrefixHeader.pch
+//  DEM
+//
+//  Created by 王宝 on 15/5/8.
+//  Copyright (c) 2015年 王宝. All rights reserved.
+//
+
+#ifndef DEM_PrefixHeader_pch
+#define DEM_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef DEBUG
+#define CLog(format, ...) NSLog(format, ## __VA_ARGS__)
+#else
+#define CLog(format, ...)
+#endif
+
+#define RGBA(r,g,b,a)                   [UIColor colorWithRed:(float)r/255.0f green:(float)g/255.0f blue:(float)b/255.0f alpha:a]
+
+#define kScreenWidth    [UIScreen mainScreen].bounds.size.width
+
+#define kScreenHeight   [UIScreen mainScreen].bounds.size.height
+
+#define kVersion        [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+
+//推送通知处理回调通知
+#define kDidReceiveMessageNotification @"DidReceiveMessageNotification"
+
+/*!
+ 推送标签设置成功通知
+ 当用户登录后，有弹出推送消息提示框动作
+ */
+#define kPushSetTagsFinish              @"PushSetTagsFinish"
+
+//设置关键指标cell高度改变通知
+#define KeyIndexCellHeightChange @"KeyIndexCellHeightChange"
+
+//处理完成通知
+#define HandleFinish            @"HandleFinish"
+
+//统计页筛选window隐藏通知
+#define ScreeningWindowHidden    @"ScreeningWindowHidden"
+
+//统计页筛选完成通知
+#define ScreeningFinish          @"ScreeningFinish"
+
+//登陆完成通知
+#define LoginFinish     @"LoginFinish"
+
+//统计详细页所有指标单元格点击事件
+#define StatisticsMore  @"StatisticsMore"
+
+//#define BaseURL         @"http://10.44.136.100/app/index.php?s=api/"
+//#define BaseURL         @"http://101.200.174.134/app/index.php?s=api/"
+#define BaseURL         @"http:180.153.194.245/DynamicApp/index.php?s=api/"
+
+//VPN
+#define kVPNUser        @"appstore"
+#define kVPNPassWord    @"1qaz2WSX"
+#define kVPNHost        @"101.200.228.179"
+
+
+#endif

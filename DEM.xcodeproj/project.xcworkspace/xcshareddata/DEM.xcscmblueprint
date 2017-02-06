@@ -1,0 +1,42 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6FFA31793687B50B71B1BA0F6BBD0A19E0A9122B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "e91b8757-dd7d-4343-bc86-36f208d8747e" : {
+
+    },
+    "e91b8757-dd7d-4343-bc86-36f208d8747e++3174" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6FFA31793687B50B71B1BA0F6BBD0A19E0A9122B" : 0,
+    "e91b8757-dd7d-4343-bc86-36f208d8747e" : 0,
+    "e91b8757-dd7d-4343-bc86-36f208d8747e++3174" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E6CB5643-3053-4C95-A210-220677511F87",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6FFA31793687B50B71B1BA0F6BBD0A19E0A9122B" : "DEM1\/",
+    "e91b8757-dd7d-4343-bc86-36f208d8747e" : "",
+    "e91b8757-dd7d-4343-bc86-36f208d8747e++3174" : "DEM%E5%89%AF%E6%9C%AC\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DEM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DEM.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "code.csdn.net:wangchuanbao1\/dem1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FFA31793687B50B71B1BA0F6BBD0A19E0A9122B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/101.200.174.134\/document",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e91b8757-dd7d-4343-bc86-36f208d8747e"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/101.200.174.134\/document",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e91b8757-dd7d-4343-bc86-36f208d8747e++3174"
+    }
+  ]
+}
